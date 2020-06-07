@@ -1,14 +1,23 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+$colore_titoli: red;
+$text_align_center: center;
+
 
 body {
   background-color: black;
 }
 
 h1 {
-  color: red;
-  text-align: center;
+  color: $colore_titoli;
+  text-align: $text_align_center;
 }
 
 h2 {
-  color: white;
-  text-align: center;
+  color: $colore_titoli;
+  text-align: $text_align_center;
+}
+
+.container {
+  background-color: lightblue;
 }
